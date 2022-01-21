@@ -1,0 +1,2 @@
+{"name":"Berlin","date":"2022-01-21","time":"17:26","weather":"Clear"}{"name":"Moscow","date":"2022-01-21","time":"19:27","weather":"Moderate snow"}{"name":"Moscow","date":"2022-01-21","time":"19:27","weather":"Moderate snow"}
+{"name":"Moscow","date":"2022-01-21","time":"19:30","weather":"Moderate or heavy snow showers"}\n
