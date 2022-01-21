@@ -1,0 +1,26 @@
+{
+  "name": "nodejshomework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RumyanaA/NodejsHomework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RumyanaA/NodejsHomework/issues"
+  },
+  "homepage": "https://github.com/RumyanaA/NodejsHomework#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "node-fetch": "^3.2.0"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
+}
