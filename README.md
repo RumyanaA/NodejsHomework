@@ -8,9 +8,9 @@
 ## Config setup:
 * In config directory, open UserInput.txt and add a city
   * Example: 
-{
+`{
     "city":"sofia"
-}
+}`
 
 ## Technologies used:
 * Express.js
