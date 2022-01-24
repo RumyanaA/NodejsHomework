@@ -8,7 +8,6 @@ module.exports = createLogger({
       }),
       format.errors({ stack: true }),
       format.splat(),
-    //   format.json(),
       format.printf(info => `${info.level}: ${[info.timestamp]}: ${info.message}`)
     ),
     transports: [

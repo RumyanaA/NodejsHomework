@@ -1,5 +1,6 @@
+const email = require('./../Services/EmailSenderService')
 module.exports = class CreateOutputService {
-  static createOutputCityObject(city) {
+  static async createOutputCityObject(city,mail) {
     let cityData = {};
     const timeAndDate = city.location.localtime;
     const timeAndDateArray = timeAndDate.split(' ');
@@ -7,6 +8,9 @@ module.exports = class CreateOutputService {
     cityData.date = timeAndDateArray[0];
     cityData.time = timeAndDateArray[1];
     cityData.weather = city.current.condition.text;
+    if(mail){
+        await email.sendMail(mail,JSON.stringify(cityData));
+    }
     console.log(JSON.stringify(cityData));
     return JSON.stringify(cityData);
   }
