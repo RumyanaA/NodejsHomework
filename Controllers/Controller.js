@@ -1,6 +1,7 @@
 const FileService = require('./../Services/FileService');
 const TimeAndWeatherService = require('./../Services/TimeAndWeatherService');
 const CreateOutputService = require('./../Services/CreateOutputService');
+const logger = require('./../Services/LoggingService');
 module.exports = class usersController {
   static async getCityData(req, res) {
     try {
@@ -15,7 +16,7 @@ module.exports = class usersController {
       FileService.WriteFile(output);
       res.send(output);
     } catch (e) {
-      console.log(e);
+      logger.error(e.message);
     }
   }
 };

@@ -18,7 +18,8 @@
   "homepage": "https://github.com/RumyanaA/NodejsHomework#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "node-fetch": "^3.2.0"
+    "node-fetch": "^3.2.0",
+    "winston": "^3.4.0"
   },
   "devDependencies": {
     "prettier": "2.5.1"

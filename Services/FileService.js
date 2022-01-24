@@ -8,6 +8,6 @@ module.exports = class FileService {
   }
 
   static async WriteFile(cityData) {
-    fs.appendFile('./config/Output.txt', cityData, 'UTF-8', {flags: 'a+'});
+    fs.appendFile('./config/Output.txt', '\r\n' + cityData +'\r\n', 'UTF-8', {flags: 'a+'});
   }
 };
