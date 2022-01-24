@@ -1,2 +1,0 @@
-{"name":"Berlin","date":"2022-01-21","time":"17:26","weather":"Clear"}{"name":"Moscow","date":"2022-01-21","time":"19:27","weather":"Moderate snow"}{"name":"Moscow","date":"2022-01-21","time":"19:27","weather":"Moderate snow"}
-{"name":"Moscow","date":"2022-01-21","time":"19:30","weather":"Moderate or heavy snow showers"}\n{"name":"Moscow","date":"2022-01-24","time":"10:58","weather":"Light snow"}{"error":"Parameter q is missing."}{"name":"Sofia","date":"2022-01-24","time":"10:25","weather":"Overcast"}{"error":"No matching location found."}

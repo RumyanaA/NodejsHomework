@@ -7,7 +7,7 @@
 
 ## Config setup:
 * In config directory, open UserInput.txt and add a city
-** Example: 
+  * Example: 
 {
     "city":"sofia"
 }
