@@ -10,4 +10,10 @@ module.exports = class CreateOutputService {
     console.log(JSON.stringify(cityData));
     return JSON.stringify(cityData);
   }
+  static handleWrongCity(response){
+      let errorMessage={};
+      errorMessage.error=response.error.message;
+      console.log(JSON.stringify(errorMessage));
+      return JSON.stringify(errorMessage);
+  }
 };
