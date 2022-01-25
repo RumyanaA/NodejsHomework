@@ -16,6 +16,7 @@ module.exports = async function getCityData(req, res) {
           cityInfo,
           config.email,
         );
+      logger.info('Appended city info in Output.txt')
       }
       FileService.WriteFile(output);
       res.send(output);

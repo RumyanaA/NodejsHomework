@@ -1,4 +1,5 @@
 const email = require('./../Services/EmailSenderService')
+const logger = require('./LoggingService');
 module.exports = class CreateOutputService {
   static async createOutputCityObject(city,mail) {
     let cityData = {};
@@ -10,6 +11,7 @@ module.exports = class CreateOutputService {
     cityData.weather = city.current.condition.text;
     if(mail){
         await email.sendMail(mail,JSON.stringify(cityData));
+        logger.info('Email sent');
     }
     console.log(JSON.stringify(cityData));
     return JSON.stringify(cityData);

@@ -15,3 +15,7 @@ error: 2022-01-25 11:46:00: {"error":"Parameter q is missing."}
 error: 2022-01-25 12:00:32: request to http://api.weatherapi.com/v1/current.json?key=493f7722705c44bb906133558222101&q= failed, reason: getaddrinfo ENOTFOUND api.weatherapi.com
 error: 2022-01-25 12:01:48: request to http://api.weatherapi.com/v1/current.json?key=493f7722705c44bb906133558222101&q= failed, reason: getaddrinfo ENOTFOUND api.weatherapi.com
 error: 2022-01-25 12:02:42: {"error":"Parameter q is missing."}
+error: 2022-01-25 12:26:22: Unexpected token N in JSON at position 0
+info: 2022-01-25 12:33:14: Email sent
+info: 2022-01-25 12:35:48: Appended city info in Output.txt
+info: 2022-01-25 12:36:34: Appended city info in Output.txt
