@@ -1,1 +1,17 @@
 
+error: 2022-01-25 11:26:26: ENOENT: no such file or directory, open 'C:\Users\Rumyana_Atanasova\Desktop\NodejsHomework\config\UserInpt.txt'
+error: 2022-01-25 11:26:59: ENOENT: no such file or directory, open 'C:\Users\Rumyana_Atanasova\Desktop\NodejsHomework\config\UserInpt.txt'
+error: 2022-01-25 11:27:02: ENOENT: no such file or directory, open 'C:\Users\Rumyana_Atanasova\Desktop\NodejsHomework\config\UserInpt.txt'
+error: 2022-01-25 11:29:01: ENOENT: no such file or directory, open 'c:\Users\Rumyana_Atanasova\Desktop\NodejsHomework\config\UserInpt.txt'
+error: 2022-01-25 11:31:22: {"error":"Parameter q is missing."}
+error: 2022-01-25 11:32:33: {"error":"Parameter q is missing."}
+error: 2022-01-25 11:32:53: {"error":"Parameter q is missing."}
+error: 2022-01-25 11:33:38: {"error":"Parameter q is missing."}
+error: 2022-01-25 11:33:55: {"error":"Parameter q is missing."}
+error: 2022-01-25 11:36:59: {"error":"Parameter q is missing."}
+error: 2022-01-25 11:45:41: {"error":"Parameter q is missing."}
+error: 2022-01-25 11:45:48: {"error":"Parameter q is missing."}
+error: 2022-01-25 11:46:00: {"error":"Parameter q is missing."}
+error: 2022-01-25 12:00:32: request to http://api.weatherapi.com/v1/current.json?key=493f7722705c44bb906133558222101&q= failed, reason: getaddrinfo ENOTFOUND api.weatherapi.com
+error: 2022-01-25 12:01:48: request to http://api.weatherapi.com/v1/current.json?key=493f7722705c44bb906133558222101&q= failed, reason: getaddrinfo ENOTFOUND api.weatherapi.com
+error: 2022-01-25 12:02:42: {"error":"Parameter q is missing."}
