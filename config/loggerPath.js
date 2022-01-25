@@ -1,3 +1,3 @@
-module.exports={
-    loggerPath:'C:\\Users\\Rumyana_Atanasova\\Desktop\\NodejsHomework\\logs\\Logs.log'
-}
+module.exports = {
+  loggerPath: 'C:\\Users\\Rumyana_Atanasova\\Desktop\\NodejsHomework\\logs\\Logs.log',
+};

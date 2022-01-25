@@ -19,3 +19,10 @@ error: 2022-01-25 12:26:22: Unexpected token N in JSON at position 0
 info: 2022-01-25 12:33:14: Email sent
 info: 2022-01-25 12:35:48: Appended city info in Output.txt
 info: 2022-01-25 12:36:34: Appended city info in Output.txt
+error: 2022-01-25 15:13:11: logger.console is not a function
+error: 2022-01-25 15:13:11: logger.console is not a function
+error: 2022-01-25 15:14:19: logger.console is not a function
+error: 2022-01-25 15:14:19: logger.console is not a function
+info: 2022-01-25 15:16:16: Appended city info in Output.txt
+info: 2022-01-25 15:22:46: Appended city info in Output.txt
+info: 2022-01-25 15:35:50: Appended city info in Output.txt

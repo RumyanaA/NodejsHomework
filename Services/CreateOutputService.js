@@ -1,25 +1,26 @@
-const email = require('./../Services/EmailSenderService')
+const email = require('./EmailSenderService');
 const logger = require('./LoggingService');
+
 module.exports = class CreateOutputService {
-  static async createOutputCityObject(city,mail) {
-    let cityData = {};
+  static async createOutputCityObject(city, mail) {
+    const cityData = {};
     const timeAndDate = city.location.localtime;
     const timeAndDateArray = timeAndDate.split(' ');
     cityData.name = city.location.name;
-    cityData.date = timeAndDateArray[0];
-    cityData.time = timeAndDateArray[1];
+    [cityData.date, cityData.time] = [timeAndDateArray[0], timeAndDateArray[1]];
     cityData.weather = city.current.condition.text;
-    if(mail){
-        await email.sendMail(mail,JSON.stringify(cityData));
-        logger.info('Email sent');
+    if (mail) {
+      await email.sendMail(mail, JSON.stringify(cityData));
+      logger.info('Email sent');
     }
-    console.log(JSON.stringify(cityData));
+    logger.silly(JSON.stringify(cityData));
     return JSON.stringify(cityData);
   }
-  static handleWrongCity(response){
-      let errorMessage={};
-      errorMessage.error=response.error.message;
-      console.log(JSON.stringify(errorMessage));
-      return JSON.stringify(errorMessage);
+
+  static handleWrongCity(response) {
+    const errorMessage = {};
+    errorMessage.error = response.error.message;
+    logger.silly(JSON.stringify(errorMessage));
+    return JSON.stringify(errorMessage);
   }
 };
